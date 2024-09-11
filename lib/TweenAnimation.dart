@@ -31,7 +31,7 @@ class _TweenAnimationState extends State<TweenAnimation> {
                 ),
                 TweenAnimationBuilder<Color?>(
                   tween: ColorTween(begin: c1, end: c2),
-                  duration: const Duration(seconds: 1),
+                  duration: const Duration(seconds: 4),
                   builder: (BuildContext context, Color? color, Widget? child) {
                     return ColorFiltered(
                       colorFilter: ColorFilter.mode(

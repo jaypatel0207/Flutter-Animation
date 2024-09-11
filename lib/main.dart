@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/HomePage.dart';
+import 'package:flutter_animation/ticker.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const Homepage(),
+      child: const MyHomePage(),
     );
   }
 }
